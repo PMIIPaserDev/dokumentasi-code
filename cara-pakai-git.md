@@ -11,7 +11,7 @@ Buka terminal dan ketik perintah berikut:
 ```bash
 sudo apt update
 sudo apt install git -y
-
+```
 ###🪟 Di Windows
 Unduh installer dari git-scm.com.
 Jalankan .exe dan ikuti petunjuk instalasi.
@@ -20,29 +20,31 @@ Verifikasi instalasi (berlaku untuk semua OS):
 
 ```bash
 git --version
+```
 2. Pengaturan Awal (First-Time Setup)
 Identitas ini penting karena setiap commit di Git akan menggunakan informasi ini.
-
 ```bash
 git config --global user.name "Nama Lengkap Anda"
 git config --global user.email "emailanda@example.com"
-  
+ ``` 
 3. Dasar-Dasar Git yang Sering Dipakai
 Memulai Repositori
 Membuat repo baru di folder saat ini:
 
 ```bash
 git init
-Menyalin repo yang sudah ada dari internet:
 ```
+Menyalin repo yang sudah ada dari internet:
 
 ```bash
 git clone [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
+```
 Siklus Perubahan File
 Cek status file:
 
 ```bash
 git status
+```
 Menambah file ke Staging Area (siap simpan):
 
 Bash
