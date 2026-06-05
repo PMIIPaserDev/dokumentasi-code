@@ -12,7 +12,7 @@ Buka terminal dan ketik perintah berikut:
 sudo apt update
 sudo apt install git -y
 ```
-###🪟 Di Windows
+### 🪟 Di Windows
 Unduh installer dari git-scm.com.
 Jalankan .exe dan ikuti petunjuk instalasi.
 Buka CMD atau PowerShell untuk mulai menggunakan Git.
@@ -47,26 +47,34 @@ git status
 ```
 Menambah file ke Staging Area (siap simpan):
 
-Bash
+```Bash
 git add nama_file.html  # Satu file
 git add .               # Semua file
+```
+
 Menyimpan perubahan secara permanen (Commit):
 
-Bash
+```Bash
 git commit -m "Catatan: Deskripsi perubahan Anda"
+```
 4. Bekerja dengan GitHub (Remote)
 Menghubungkan folder lokal ke GitHub:
 
-Bash
+```Bash
 git remote add origin [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
+```
+
 Mengirim kode ke GitHub:
 
-Bash
+```Bash
 git push -u origin main
+```
+
 Mengambil kode terbaru dari GitHub:
 
-Bash
+```Bash
 git pull origin main
+```
 5. Percabangan (Branching)
 Branch digunakan agar kamu bisa bereksperimen tanpa merusak kode utama.
 
@@ -76,9 +84,10 @@ Pindah ke branch lain: git checkout main
 
 Menggabungkan fitur ke main:
 
-Bash
+```Bash
 git checkout main
 git merge nama-fitur
+```
 6. Referensi Dokumentasi
 Untuk pemahaman lebih dalam, kamu bisa merujuk ke:
 
